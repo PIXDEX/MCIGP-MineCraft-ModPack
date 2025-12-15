@@ -1,4 +1,4 @@
-![Logo de MCIGP](logo.png)
+![Logo de MCIGP](https://github.com/PIXDEX/MCIGP-MineCraft-ModPack/blob/main/61%20sin%20t%C3%ADtulo_20251215153730.png)
 
 Este es el sitio oficial de **MCIGP**.
 
