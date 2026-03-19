@@ -29,12 +29,36 @@
             padding-left: 20px;
         }
         .card {
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px #00000020;
-            margin-bottom: 20px;
-        }
+    /* Un gris casi negro con transparencia para que se funda con la madera */
+    background: rgba(20, 20, 20, 0.85); 
+    padding: 20px;
+    border-radius: 10px;
+    /* Una sombra más fuerte para que resalte en el fondo oscuro */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6); 
+    margin-bottom: 20px;
+    /* Color de texto claro para que se lea bien */
+    color: #e0e0e0;
+    /* Un borde sutil para darle definición */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    /* Efecto de desenfoque detrás (opcional, queda muy pro) */
+    backdrop-filter: blur(4px);
+}
+
+/* Cambiamos el color de los títulos dentro de las cards */
+.card h1, .card h2 {
+    color: #4ade80; /* Un verde vibrante que resalta mucho mejor en oscuro */
+}
+
+/* Para que los enlaces de descarga se vean bien */
+.card a {
+    color: #60a5fa;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
     </style>
 </head>
 <body>
